@@ -6,6 +6,11 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     @home_title = "Welcome to Ellie Farmgirl"
   end
 
+  test "should get root" do
+    get root_url
+    assert_response :success
+  end
+
   test "should get home" do
     get static_pages_home_url
     assert_response :success
