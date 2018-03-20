@@ -27,4 +27,7 @@ config/secrets_backup.yml
 
 config/secrets.yml
 
+config/test_secret.yml
+
+
 
