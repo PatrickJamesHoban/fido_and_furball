@@ -25,6 +25,6 @@
 #ignore keys
 config/secrets_backup.yml
 
-config/test.yml
+config/secrets.yml
 
 
