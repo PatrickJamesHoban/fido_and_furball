@@ -4,12 +4,15 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+
 # Ignore bundler config.
 /.bundle
+
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
+
 
 # Ignore all logfiles and tempfiles.
 /log/*
@@ -22,6 +25,7 @@
 
 .byebug_history
 
+
 #ignore keys
 config/secrets_backup.yml
 
@@ -30,4 +34,6 @@ config/secrets.yml
 config/test_secret.yml
 
 
+# Ignore Spring files.
+/spring/*.pid
 
