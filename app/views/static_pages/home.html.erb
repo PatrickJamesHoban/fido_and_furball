@@ -1,11 +1,19 @@
 <% # provide(:title, "Home") %>
 <% provide(:custom_title, "Welcome to Ellie Farmgirl") %>
 
-<h1>
-  Ellie Farmgirl: The Place to manage all your Furry friend's needs.
-</h1>
+<div class="center jumbotron">
 
-<p>
-  Welcome! Reach out to <a href="https://www.patrickjameshoban.com">Patrick and Mary</a> for more info!
-</p>
+  <h1>
+    Ellie Farmgirl: The Place to manage all your Furry friend's needs.
+  </h1>
+
+  <h2>
+    Welcome! Reach out to <a href="https://www.patrickjameshoban.com">Patrick and Mary</a> for more info!
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary" %>
+
+</div>
+
+<%= link_to image_tag("ellie_love.jpg", alt: "Ellie with sign All You Need is Love and a Dog"), 'https://www.elliefarmgirl.com' %> 
 

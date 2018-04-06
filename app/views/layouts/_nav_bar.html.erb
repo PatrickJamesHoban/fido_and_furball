@@ -1,8 +1,25 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to "Ellie Farmgirl", '#', id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Home",   '/static_pages/home' %></li>
+        <li><%= link_to "Help",   '/static_pages/help' %></li>
+        <li><%= link_to "About", '/static_pages/about' %></li>
+        <!-- '#' allows the page to remain in the same location when clicking the link without an error -->
+        <li><%= link_to "Log in", '#' %></li> 
+      </ul>
+    </nav>
+  </div>
+</header>
 
-<table class="nav-wrapper">
-  <tr class="nav-list">
+
+<!-- TO DO : REVISIT ONCE USER IS SET UP TO DETERMINE WHICH HEADER STYLE WORKS BETTER -->
+
+<!-- <table class="nav-wrapper">
+  <tr class="nav-list"> -->
     <!-- Home page link -->
-    <td>
+<!--     <td>
       <a href="/static_pages/home"> Home | </a>
     </td>
 
@@ -12,7 +29,7 @@
 
     <td>
       <a href="/static_pages/about"> About | </a>
-    </td>
+    </td> -->
 
 <!--     <td>
       <a href="/"> Login | </a>
@@ -27,6 +44,6 @@
 <!--     <td>
       <a id="login-link" href="/sessions/new"> Login | </a>
     </td> -->
-
+<!-- 
   </tr>
-</table>
+</table> -->
