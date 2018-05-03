@@ -14,4 +14,7 @@ Rails.application.routes.draw do
   # get 'users/new' # This was automatically created when generate was called, changed path to the below.
   get '/signup', to: 'users#new'
 
+  # allows access to users/1
+  resources :users
+
 end
